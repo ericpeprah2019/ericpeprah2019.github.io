@@ -3,83 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CCNA Portfolio</title>
+    <title>CCNA Portfolio - Eric Peprah</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- Navigation Bar -->
     <header>
-        <h1>Welcome to My CCNA Portfolio</h1>
-        <p>Showcasing my networking expertise, projects, and certifications.</p>
+        <h1>My CCNA Portfolio</h1>
         <nav>
             <ul>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li><a href="#experience">Experience</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Hero Section -->
     <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a passionate network engineer with a CCNA certification. I specialize in configuring, troubleshooting, and optimizing network infrastructures.</p>
+        <div class="hero">
+            <img src="images/profile.png" alt="Profile Picture">
+            <div>
+                <h2>Hello, I'm Eric Peprah</h2>
+                <p>A passionate network engineer with CCNA certification and experience in configuring and troubleshooting network devices.</p>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+        </div>
     </section>
 
+    <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Basic Network Setup</h3>
-            <p>Configured a simple network with routers, switches, and PCs, demonstrating IP addressing and basic routing.</p>
-        </div>
-        <div class="project">
-            <h3>VLAN Implementation</h3>
-            <p>Implemented VLANs to segment networks and enhance security.</p>
-        </div>
-        <div class="project">
-            <h3>Routing & Switching</h3>
-            <p>Configured OSPF and EIGRP routing protocols and advanced switching features.</p>
-        </div>
-        <div class="project">
-            <h3>Network Security Configuration</h3>
-            <p>Set up firewalls and access control lists to enhance security.</p>
+        <div class="project-container">
+            <div class="project">
+                <img src="images/project1.png" alt="Project 1">
+                <h3>Basic Network Setup</h3>
+                <p>Configured a simple network with routers, switches, and PCs, implementing static and dynamic routing.</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.png" alt="Project 2">
+                <h3>VLAN Implementation</h3>
+                <p>Implemented VLANs to segment network traffic, improving security and reducing congestion.</p>
+            </div>
+            <div class="project">
+                <img src="images/project3.png" alt="Project 3">
+                <h3>OSPF Configuration</h3>
+                <p>Designed an OSPF-based network topology and optimized route redistribution.</p>
+            </div>
         </div>
     </section>
 
+    <!-- Certifications Section -->
     <section id="certifications">
         <h2>Certifications</h2>
-        <p>✔ Cisco Certified Network Associate (CCNA)</p>
-        <p>✔ Other networking and IT-related certifications</p>
+        <div class="cert-container">
+            <div class="cert">
+                <img src="CCNA.jpeg" alt="CCNA Certification" width="15%">
+                <p>CCNA - Cisco Certified Network Associate</p>
+            </div>
+        </div>
     </section>
 
+    <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
+        <h2>Technical Skills</h2>
         <ul>
-            <li>IP Addressing & Subnetting</li>
-            <li>Routing & Switching (OSPF, EIGRP, STP, VLANs)</li>
+            <li>Routing & Switching (OSPF, EIGRP, VLANs)</li>
             <li>Network Security (ACLs, Firewalls, VPNs)</li>
+            <li>IPv4 & IPv6 Addressing</li>
+            <li>Wireless Networking</li>
             <li>Network Automation (Python, Ansible)</li>
         </ul>
     </section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <p>✔ Worked on enterprise-level network setups.</p>
-        <p>✔ Assisted in network troubleshooting and security enhancement.</p>
-    </section>
-
+    <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: <a href="mailto:eric.peprah2019@gmail.com">eric.peprah2019@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank">My LinkedIn</a></p>
-        <p>GitHub: <a href="https://www.linkedin.com/in/eric-peprah-57b21015b/" target="_blank">My GitHub</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/eric-peprah-57b21015b/">Eric Peprah</a></p>
     </section>
 
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Eric Peprah | CCNA Portfolio</p>
+        <p>© 2025 Eric Peprah | CCNA Portfolio</p>
     </footer>
 
 </body>
-</html>
+</html> 
